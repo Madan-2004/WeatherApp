@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica';
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #272727;
+}
+
+.card{
+    max-width: 500px;
+    margin: 100px auto 0;
+    background-image: linear-gradient(to right, #00b4db, #0083b0);
+    padding: 40px;
+    text-align: center;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input{
+    height: 50px;
+    font-size: 20px;
+    border-radius: 30px;
+    border-color: #fff;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+    outline: 0;
+    border: 0;
+    flex: 1;
+}
+
+.search button{
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    outline: 0;
+    border: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.search button:hover{
+    background-color:#f79c8d ;
+    transform: translateY(-3px);
+}
+
+.card button img{
+    height: 20px;
+}
+
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img img{
+    margin-top: 30px;
+    height: 140px;
+}
+
+.temp{
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.city{
+    font-size: 40px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.other-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.humidity{
+    display: flex;
+    text-align: left;
+}
+
+.humidity img{
+    height:40px;
+    margin-right: 10px;
+}
+
+.humidity-value{
+    font-size: 20px;
+}
+
+.wind{
+    display: flex;
+    text-align: left;
+}
+
+.wind img{
+    height:40px;
+    margin-right: 10px;
+}
+
+.speed-value{
+    font-size: 20px;
+}
+
+
